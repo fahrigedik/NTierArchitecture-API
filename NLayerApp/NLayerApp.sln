@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NLayerApp.Repository", "NLa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayerApp.Service", "NLayerApp.Service\NLayerApp.Service.csproj", "{4E41AEB6-444E-48D5-B2F5-C92CE491AC65}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayerApp.API", "NLayerApp.API\NLayerApp.API.csproj", "{BB3C530F-24BE-475D-B25A-D1C9300EC491}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{4E41AEB6-444E-48D5-B2F5-C92CE491AC65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E41AEB6-444E-48D5-B2F5-C92CE491AC65}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E41AEB6-444E-48D5-B2F5-C92CE491AC65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB3C530F-24BE-475D-B25A-D1C9300EC491}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB3C530F-24BE-475D-B25A-D1C9300EC491}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB3C530F-24BE-475D-B25A-D1C9300EC491}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB3C530F-24BE-475D-B25A-D1C9300EC491}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
