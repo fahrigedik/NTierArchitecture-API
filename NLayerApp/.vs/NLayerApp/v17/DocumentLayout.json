@@ -1,12 +1,62 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\fahri\\Desktop\\NTierArch\\NTierArchitecture-API\\NLayerApp\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4D447F59-1185-4D2C-9476-232F0095F8C3}|NLayerApp.CoreLayer\\NLayerApp.Core.csproj|c:\\users\\fahri\\desktop\\ntierarch\\ntierarchitecture-api\\nlayerapp\\nlayerapp.corelayer\\nlayerapp.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4D447F59-1185-4D2C-9476-232F0095F8C3}|NLayerApp.CoreLayer\\NLayerApp.Core.csproj|solutionrelative:nlayerapp.corelayer\\nlayerapp.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14758000-FB33-4996-A153-7E2AFC51680E}|NLayerApp.Repository\\NLayerApp.Repository.csproj|c:\\users\\fahri\\desktop\\ntierarch\\ntierarchitecture-api\\nlayerapp\\nlayerapp.repository\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14758000-FB33-4996-A153-7E2AFC51680E}|NLayerApp.Repository\\NLayerApp.Repository.csproj|solutionrelative:nlayerapp.repository\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NLayerApp.Core",
+              "DocumentMoniker": "C:\\Users\\fahri\\Desktop\\NTierArch\\NTierArchitecture-API\\NLayerApp\\NLayerApp.CoreLayer\\NLayerApp.Core.csproj",
+              "RelativeDocumentMoniker": "NLayerApp.CoreLayer\\NLayerApp.Core.csproj",
+              "ToolTip": "C:\\Users\\fahri\\Desktop\\NTierArch\\NTierArchitecture-API\\NLayerApp\\NLayerApp.CoreLayer\\NLayerApp.Core.csproj",
+              "RelativeToolTip": "NLayerApp.CoreLayer\\NLayerApp.Core.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-27T13:39:58.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\fahri\\Desktop\\NTierArch\\NTierArchitecture-API\\NLayerApp\\NLayerApp.Repository\\Class1.cs",
+              "RelativeDocumentMoniker": "NLayerApp.Repository\\Class1.cs",
+              "ToolTip": "C:\\Users\\fahri\\Desktop\\NTierArch\\NTierArchitecture-API\\NLayerApp\\NLayerApp.Repository\\Class1.cs",
+              "RelativeToolTip": "NLayerApp.Repository\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T13:39:41.143Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

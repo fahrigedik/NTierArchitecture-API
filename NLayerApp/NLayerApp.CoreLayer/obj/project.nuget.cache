@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ds0SPa/xEbA=",
+  "dgSpecHash": "txJ8WKhBDDA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\fahri\\Desktop\\NTierArch\\NTierArchitecture-API\\NLayerApp\\NLayerApp.CoreLayer\\NLayerApp.CoreLayer.csproj",
+  "projectFilePath": "C:\\Users\\fahri\\Desktop\\NTierArch\\NTierArchitecture-API\\NLayerApp\\NLayerApp.CoreLayer\\NLayerApp.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

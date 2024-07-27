@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayerApp.CoreLayer", "NLayerApp.CoreLayer\NLayerApp.CoreLayer.csproj", "{4D447F59-1185-4D2C-9476-232F0095F8C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NLayerApp.Core", "NLayerApp.CoreLayer\NLayerApp.Core.csproj", "{4D447F59-1185-4D2C-9476-232F0095F8C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayerApp.Repository", "NLayerApp.Repository\NLayerApp.Repository.csproj", "{14758000-FB33-4996-A153-7E2AFC51680E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{4D447F59-1185-4D2C-9476-232F0095F8C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D447F59-1185-4D2C-9476-232F0095F8C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D447F59-1185-4D2C-9476-232F0095F8C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14758000-FB33-4996-A153-7E2AFC51680E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14758000-FB33-4996-A153-7E2AFC51680E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14758000-FB33-4996-A153-7E2AFC51680E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14758000-FB33-4996-A153-7E2AFC51680E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
