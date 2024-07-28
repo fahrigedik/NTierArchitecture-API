@@ -3,16 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\fahri\\Desktop\\NTierArch\\NTierArchitecture-API\\NLayerApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{14758000-FB33-4996-A153-7E2AFC51680E}|NLayerApp.Repository\\NLayerApp.Repository.csproj|c:\\users\\fahri\\desktop\\ntierarch\\ntierarchitecture-api\\nlayerapp\\nlayerapp.repository\\seeds\\productseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14758000-FB33-4996-A153-7E2AFC51680E}|NLayerApp.Repository\\NLayerApp.Repository.csproj|solutionrelative:nlayerapp.repository\\seeds\\productseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BB3C530F-24BE-475D-B25A-D1C9300EC491}|NLayerApp.API\\NLayerApp.API.csproj|c:\\users\\fahri\\desktop\\ntierarch\\ntierarchitecture-api\\nlayerapp\\nlayerapp.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BB3C530F-24BE-475D-B25A-D1C9300EC491}|NLayerApp.API\\NLayerApp.API.csproj|solutionrelative:nlayerapp.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB3C530F-24BE-475D-B25A-D1C9300EC491}|NLayerApp.API\\NLayerApp.API.csproj|c:\\users\\fahri\\desktop\\ntierarch\\ntierarchitecture-api\\nlayerapp\\nlayerapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB3C530F-24BE-475D-B25A-D1C9300EC491}|NLayerApp.API\\NLayerApp.API.csproj|solutionrelative:nlayerapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fahri\\Desktop\\NTierArch\\NTierArchitecture-API\\NLayerApp\\NLayerApp.Repository\\Migrations\\20240728184605_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:NLayerApp.Repository\\Migrations\\20240728184605_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB3C530F-24BE-475D-B25A-D1C9300EC491}|NLayerApp.API\\NLayerApp.API.csproj|c:\\users\\fahri\\desktop\\ntierarch\\ntierarchitecture-api\\nlayerapp\\nlayerapp.api\\nlayerapp.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BB3C530F-24BE-475D-B25A-D1C9300EC491}|NLayerApp.API\\NLayerApp.API.csproj|solutionrelative:nlayerapp.api\\nlayerapp.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14758000-FB33-4996-A153-7E2AFC51680E}|NLayerApp.Repository\\NLayerApp.Repository.csproj|c:\\users\\fahri\\desktop\\ntierarch\\ntierarchitecture-api\\nlayerapp\\nlayerapp.repository\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14758000-FB33-4996-A153-7E2AFC51680E}|NLayerApp.Repository\\NLayerApp.Repository.csproj|solutionrelative:nlayerapp.repository\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14758000-FB33-4996-A153-7E2AFC51680E}|NLayerApp.Repository\\NLayerApp.Repository.csproj|c:\\users\\fahri\\desktop\\ntierarch\\ntierarchitecture-api\\nlayerapp\\nlayerapp.repository\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14758000-FB33-4996-A153-7E2AFC51680E}|NLayerApp.Repository\\NLayerApp.Repository.csproj|solutionrelative:nlayerapp.repository\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{14758000-FB33-4996-A153-7E2AFC51680E}|NLayerApp.Repository\\NLayerApp.Repository.csproj|c:\\users\\fahri\\desktop\\ntierarch\\ntierarchitecture-api\\nlayerapp\\nlayerapp.repository\\seeds\\categoryseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14758000-FB33-4996-A153-7E2AFC51680E}|NLayerApp.Repository\\NLayerApp.Repository.csproj|solutionrelative:nlayerapp.repository\\seeds\\categoryseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{14758000-FB33-4996-A153-7E2AFC51680E}|NLayerApp.Repository\\NLayerApp.Repository.csproj|c:\\users\\fahri\\desktop\\ntierarch\\ntierarchitecture-api\\nlayerapp\\nlayerapp.repository\\nlayerapp.repository.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{14758000-FB33-4996-A153-7E2AFC51680E}|NLayerApp.Repository\\NLayerApp.Repository.csproj|solutionrelative:nlayerapp.repository\\nlayerapp.repository.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{14758000-FB33-4996-A153-7E2AFC51680E}|NLayerApp.Repository\\NLayerApp.Repository.csproj|c:\\users\\fahri\\desktop\\ntierarch\\ntierarchitecture-api\\nlayerapp\\nlayerapp.repository\\seeds\\productseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14758000-FB33-4996-A153-7E2AFC51680E}|NLayerApp.Repository\\NLayerApp.Repository.csproj|solutionrelative:nlayerapp.repository\\seeds\\productseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4D447F59-1185-4D2C-9476-232F0095F8C3}|NLayerApp.CoreLayer\\NLayerApp.Core.csproj|c:\\users\\fahri\\desktop\\ntierarch\\ntierarchitecture-api\\nlayerapp\\nlayerapp.corelayer\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -78,41 +98,93 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20240728184605_initial.cs",
+              "DocumentMoniker": "C:\\Users\\fahri\\Desktop\\NTierArch\\NTierArchitecture-API\\NLayerApp\\NLayerApp.Repository\\Migrations\\20240728184605_initial.cs",
+              "RelativeDocumentMoniker": "NLayerApp.Repository\\Migrations\\20240728184605_initial.cs",
+              "ToolTip": "C:\\Users\\fahri\\Desktop\\NTierArch\\NTierArchitecture-API\\NLayerApp\\NLayerApp.Repository\\Migrations\\20240728184605_initial.cs",
+              "RelativeToolTip": "NLayerApp.Repository\\Migrations\\20240728184605_initial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T18:46:06.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NLayerApp.API",
+              "DocumentMoniker": "C:\\Users\\fahri\\Desktop\\NTierArch\\NTierArchitecture-API\\NLayerApp\\NLayerApp.API\\NLayerApp.API.csproj",
+              "RelativeDocumentMoniker": "NLayerApp.API\\NLayerApp.API.csproj",
+              "ToolTip": "C:\\Users\\fahri\\Desktop\\NTierArch\\NTierArchitecture-API\\NLayerApp\\NLayerApp.API\\NLayerApp.API.csproj",
+              "RelativeToolTip": "NLayerApp.API\\NLayerApp.API.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-28T18:41:10.736Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductSeed.cs",
-              "DocumentMoniker": "C:\\Users\\fahri\\Desktop\\NTierArch\\NTierArchitecture-API\\NLayerApp\\NLayerApp.Repository\\Seeds\\ProductSeed.cs",
-              "RelativeDocumentMoniker": "NLayerApp.Repository\\Seeds\\ProductSeed.cs",
-              "ToolTip": "C:\\Users\\fahri\\Desktop\\NTierArch\\NTierArchitecture-API\\NLayerApp\\NLayerApp.Repository\\Seeds\\ProductSeed.cs",
-              "RelativeToolTip": "NLayerApp.Repository\\Seeds\\ProductSeed.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAJAAAA",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\fahri\\Desktop\\NTierArch\\NTierArchitecture-API\\NLayerApp\\NLayerApp.API\\Program.cs",
+              "RelativeDocumentMoniker": "NLayerApp.API\\Program.cs",
+              "ToolTip": "C:\\Users\\fahri\\Desktop\\NTierArch\\NTierArchitecture-API\\NLayerApp\\NLayerApp.API\\Program.cs",
+              "RelativeToolTip": "NLayerApp.API\\Program.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABYAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T11:39:08.627Z",
+              "WhenOpened": "2024-07-28T16:20:11.831Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CategorySeed.cs",
-              "DocumentMoniker": "C:\\Users\\fahri\\Desktop\\NTierArch\\NTierArchitecture-API\\NLayerApp\\NLayerApp.Repository\\Seeds\\CategorySeed.cs",
-              "RelativeDocumentMoniker": "NLayerApp.Repository\\Seeds\\CategorySeed.cs",
-              "ToolTip": "C:\\Users\\fahri\\Desktop\\NTierArch\\NTierArchitecture-API\\NLayerApp\\NLayerApp.Repository\\Seeds\\CategorySeed.cs",
-              "RelativeToolTip": "NLayerApp.Repository\\Seeds\\CategorySeed.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T11:35:53.128Z",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\fahri\\Desktop\\NTierArch\\NTierArchitecture-API\\NLayerApp\\NLayerApp.API\\appsettings.json",
+              "RelativeDocumentMoniker": "NLayerApp.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\fahri\\Desktop\\NTierArch\\NTierArchitecture-API\\NLayerApp\\NLayerApp.API\\appsettings.json",
+              "RelativeToolTip": "NLayerApp.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-28T16:18:35.177Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\fahri\\Desktop\\NTierArch\\NTierArchitecture-API\\NLayerApp\\NLayerApp.Repository\\UnitOfWork\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "NLayerApp.Repository\\UnitOfWork\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\fahri\\Desktop\\NTierArch\\NTierArchitecture-API\\NLayerApp\\NLayerApp.Repository\\UnitOfWork\\UnitOfWork.cs",
+              "RelativeToolTip": "NLayerApp.Repository\\UnitOfWork\\UnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T15:23:59.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\fahri\\Desktop\\NTierArch\\NTierArchitecture-API\\NLayerApp\\NLayerApp.Repository\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "NLayerApp.Repository\\Repositories\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\fahri\\Desktop\\NTierArch\\NTierArchitecture-API\\NLayerApp\\NLayerApp.Repository\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "NLayerApp.Repository\\Repositories\\GenericRepository.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAlwDIAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T11:50:10.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\fahri\\Desktop\\NTierArch\\NTierArchitecture-API\\NLayerApp\\NLayerApp.Repository\\Context\\AppDbContext.cs",
               "RelativeDocumentMoniker": "NLayerApp.Repository\\Context\\AppDbContext.cs",
@@ -125,7 +197,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
+              "Title": "CategorySeed.cs",
+              "DocumentMoniker": "C:\\Users\\fahri\\Desktop\\NTierArch\\NTierArchitecture-API\\NLayerApp\\NLayerApp.Repository\\Seeds\\CategorySeed.cs",
+              "RelativeDocumentMoniker": "NLayerApp.Repository\\Seeds\\CategorySeed.cs",
+              "ToolTip": "C:\\Users\\fahri\\Desktop\\NTierArch\\NTierArchitecture-API\\NLayerApp\\NLayerApp.Repository\\Seeds\\CategorySeed.cs",
+              "RelativeToolTip": "NLayerApp.Repository\\Seeds\\CategorySeed.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T11:35:53.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\fahri\\Desktop\\NTierArch\\NTierArchitecture-API\\NLayerApp\\NLayerApp.CoreLayer\\Entities\\Category.cs",
               "RelativeDocumentMoniker": "NLayerApp.CoreLayer\\Entities\\Category.cs",
@@ -138,7 +223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "C:\\Users\\fahri\\Desktop\\NTierArch\\NTierArchitecture-API\\NLayerApp\\NLayerApp.CoreLayer\\Entities\\BaseEntity.cs",
               "RelativeDocumentMoniker": "NLayerApp.CoreLayer\\Entities\\BaseEntity.cs",
@@ -151,20 +236,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "NLayerApp.Repository.csproj",
-              "DocumentMoniker": "C:\\Users\\fahri\\Desktop\\NTierArch\\NTierArchitecture-API\\NLayerApp\\NLayerApp.Repository\\NLayerApp.Repository.csproj",
-              "RelativeDocumentMoniker": "NLayerApp.Repository\\NLayerApp.Repository.csproj",
-              "ToolTip": "C:\\Users\\fahri\\Desktop\\NTierArch\\NTierArchitecture-API\\NLayerApp\\NLayerApp.Repository\\NLayerApp.Repository.csproj",
-              "RelativeToolTip": "NLayerApp.Repository\\NLayerApp.Repository.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-27T13:50:10.934Z",
+              "DocumentIndex": 7,
+              "Title": "ProductSeed.cs",
+              "DocumentMoniker": "C:\\Users\\fahri\\Desktop\\NTierArch\\NTierArchitecture-API\\NLayerApp\\NLayerApp.Repository\\Seeds\\ProductSeed.cs",
+              "RelativeDocumentMoniker": "NLayerApp.Repository\\Seeds\\ProductSeed.cs",
+              "ToolTip": "C:\\Users\\fahri\\Desktop\\NTierArch\\NTierArchitecture-API\\NLayerApp\\NLayerApp.Repository\\Seeds\\ProductSeed.cs",
+              "RelativeToolTip": "NLayerApp.Repository\\Seeds\\ProductSeed.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T11:39:08.627Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "ProductFeatureConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\fahri\\Desktop\\NTierArch\\NTierArchitecture-API\\NLayerApp\\NLayerApp.Repository\\EntityConfigurations\\ProductFeatureConfiguration.cs",
               "RelativeDocumentMoniker": "NLayerApp.Repository\\EntityConfigurations\\ProductFeatureConfiguration.cs",
@@ -177,7 +262,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "ProductConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\fahri\\Desktop\\NTierArch\\NTierArchitecture-API\\NLayerApp\\NLayerApp.Repository\\EntityConfigurations\\ProductConfiguration.cs",
               "RelativeDocumentMoniker": "NLayerApp.Repository\\EntityConfigurations\\ProductConfiguration.cs",
@@ -190,7 +275,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "CategoryConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\fahri\\Desktop\\NTierArch\\NTierArchitecture-API\\NLayerApp\\NLayerApp.Repository\\EntityConfigurations\\CategoryConfiguration.cs",
               "RelativeDocumentMoniker": "NLayerApp.Repository\\EntityConfigurations\\CategoryConfiguration.cs",
@@ -203,7 +288,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "IUnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\fahri\\Desktop\\NTierArch\\NTierArchitecture-API\\NLayerApp\\NLayerApp.CoreLayer\\UnitOfWorks\\IUnitOfWork.cs",
               "RelativeDocumentMoniker": "NLayerApp.CoreLayer\\UnitOfWorks\\IUnitOfWork.cs",
@@ -211,11 +296,12 @@
               "RelativeToolTip": "NLayerApp.CoreLayer\\UnitOfWorks\\IUnitOfWork.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T08:14:53.535Z"
+              "WhenOpened": "2024-07-28T08:14:53.535Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "IService.cs",
               "DocumentMoniker": "C:\\Users\\fahri\\Desktop\\NTierArch\\NTierArchitecture-API\\NLayerApp\\NLayerApp.CoreLayer\\Services\\IService.cs",
               "RelativeDocumentMoniker": "NLayerApp.CoreLayer\\Services\\IService.cs",
@@ -223,11 +309,12 @@
               "RelativeToolTip": "NLayerApp.CoreLayer\\Services\\IService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T19:40:24.53Z"
+              "WhenOpened": "2024-07-27T19:40:24.53Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "ProductFeature.cs",
               "DocumentMoniker": "C:\\Users\\fahri\\Desktop\\NTierArch\\NTierArchitecture-API\\NLayerApp\\NLayerApp.CoreLayer\\Entities\\ProductFeature.cs",
               "RelativeDocumentMoniker": "NLayerApp.CoreLayer\\Entities\\ProductFeature.cs",
@@ -235,11 +322,12 @@
               "RelativeToolTip": "NLayerApp.CoreLayer\\Entities\\ProductFeature.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T14:12:29.683Z"
+              "WhenOpened": "2024-07-27T14:12:29.683Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\fahri\\Desktop\\NTierArch\\NTierArchitecture-API\\NLayerApp\\NLayerApp.CoreLayer\\Entities\\Product.cs",
               "RelativeDocumentMoniker": "NLayerApp.CoreLayer\\Entities\\Product.cs",
@@ -247,11 +335,12 @@
               "RelativeToolTip": "NLayerApp.CoreLayer\\Entities\\Product.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T14:12:06.829Z"
+              "WhenOpened": "2024-07-27T14:12:06.829Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\fahri\\Desktop\\NTierArch\\NTierArchitecture-API\\NLayerApp\\NLayerApp.Web\\Program.cs",
               "RelativeDocumentMoniker": "NLayerApp.Web\\Program.cs",
@@ -259,11 +348,12 @@
               "RelativeToolTip": "NLayerApp.Web\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T18:29:26.125Z"
+              "WhenOpened": "2024-07-27T18:29:26.125Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "IGenericRepository.cs",
               "DocumentMoniker": "C:\\Users\\fahri\\Desktop\\NTierArch\\NTierArchitecture-API\\NLayerApp\\NLayerApp.CoreLayer\\Repositories\\IGenericRepository.cs",
               "RelativeDocumentMoniker": "NLayerApp.CoreLayer\\Repositories\\IGenericRepository.cs",
@@ -271,11 +361,12 @@
               "RelativeToolTip": "NLayerApp.CoreLayer\\Repositories\\IGenericRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T18:36:15.274Z"
+              "WhenOpened": "2024-07-27T18:36:15.274Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "NLayerApp.Service.csproj",
               "DocumentMoniker": "C:\\Users\\fahri\\Desktop\\NTierArch\\NTierArchitecture-API\\NLayerApp\\NLayerApp.Service\\NLayerApp.Service.csproj",
               "RelativeDocumentMoniker": "NLayerApp.Service\\NLayerApp.Service.csproj",
@@ -283,11 +374,12 @@
               "RelativeToolTip": "NLayerApp.Service\\NLayerApp.Service.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-27T13:51:20.233Z"
+              "WhenOpened": "2024-07-27T13:51:20.233Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "NLayerApp.Core.csproj",
               "DocumentMoniker": "C:\\Users\\fahri\\Desktop\\NTierArch\\NTierArchitecture-API\\NLayerApp\\NLayerApp.CoreLayer\\NLayerApp.Core.csproj",
               "RelativeDocumentMoniker": "NLayerApp.CoreLayer\\NLayerApp.Core.csproj",
@@ -295,7 +387,8 @@
               "RelativeToolTip": "NLayerApp.CoreLayer\\NLayerApp.Core.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-27T13:39:58.726Z"
+              "WhenOpened": "2024-07-27T13:39:58.726Z",
+              "EditorCaption": ""
             }
           ]
         }
