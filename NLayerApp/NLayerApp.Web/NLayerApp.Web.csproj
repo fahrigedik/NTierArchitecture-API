@@ -6,4 +6,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\NLayerApp.Service\NLayerApp.Service.csproj" />
+  </ItemGroup>
+
 </Project>
