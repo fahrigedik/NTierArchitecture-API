@@ -60,11 +60,13 @@ namespace NLayerApp.Service.Services
         public void RemoveRange(IEnumerable<T> entities)
         {
            _repository.RemoveRange(entities);
+            _unitOfWork.Commit();
         }
 
         public void Uptade(T entity)
         {
              _repository.Uptade(entity);
+            _unitOfWork.Commit();
         }
 
         public IQueryable<T> Where(Expression<Func<T, bool>> expression)
