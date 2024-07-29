@@ -18,7 +18,7 @@ namespace NLayerApp.API.Controllers
                 return new ObjectResult(null) { StatusCode = response.statusCode };
             }
 
-            return new ObjectResult(null) { StatusCode = response.statusCode };
+            return new ObjectResult(response) { StatusCode = response.statusCode };
 
 
         }
