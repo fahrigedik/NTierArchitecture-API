@@ -8,6 +8,6 @@ namespace NLayerApp.Core.DTOs
 {
     public class NoContentDto 
     {
-
+        string message = "NoContent";
     }
 }
