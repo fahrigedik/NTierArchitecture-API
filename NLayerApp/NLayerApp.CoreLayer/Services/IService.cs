@@ -11,7 +11,7 @@ namespace NLayerApp.Core.Services
     {
         Task<T> GetByIdAsync(int id);
 
-        Task<IEnumerable<T>> GetAllAsync(Expression<Func<T, bool>> expression);
+        Task<IEnumerable<T>> GetAllAsync();
 
         IQueryable<T> Where(Expression<Func<T, bool>> expression);
 
@@ -19,13 +19,13 @@ namespace NLayerApp.Core.Services
 
         Task AddRangeAsync(IEnumerable<T> entities);
 
-        Task AddAsync(T entity);
+        Task<T> AddAsync(T entity);
 
-        Task UptadeAsync(T entity);
+        void Uptade(T entity);
 
-        Task DeleteAsync(T entity);
+        void Delete(T entity);
 
-        Task RemoveRangeAsync(IEnumerable<T> entities);
+        void RemoveRange(IEnumerable<T> entities);
 
     }
 }
