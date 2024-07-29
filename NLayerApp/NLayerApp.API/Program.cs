@@ -20,9 +20,18 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 
+//unitofwork
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+
+//repository
 builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+builder.Services.AddScoped<IProductRepository, ProductRepository>();
+
+//services
 builder.Services.AddScoped(typeof(IService<>), typeof(Service<>));
+builder.Services.AddScoped<IProductService, ProductService>();
+
+//automapper
 builder.Services.AddAutoMapper(typeof(MapProfile));
 
 
