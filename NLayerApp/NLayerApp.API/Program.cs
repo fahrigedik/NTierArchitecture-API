@@ -1,4 +1,7 @@
+using FluentValidation.AspNetCore;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using NLayerApp.API.Filters;
 using NLayerApp.Core.Repositories;
 using NLayerApp.Core.Services;
 using NLayerApp.Core.UnitOfWorks;
@@ -7,6 +10,7 @@ using NLayerApp.Repository.Repositories;
 using NLayerApp.Repository.UnitOfWork;
 using NLayerApp.Service.Mapping;
 using NLayerApp.Service.Services;
+using NLayerApp.Service.Validation;
 using System.Numerics;
 using System.Reflection;
 
@@ -14,8 +18,20 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddControllers();
+builder.Services.AddControllers(options => { options.Filters.Add(new ValidateFilterAttribute()); });
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
+//ModelState Filtresini baskýlamak için, kendi ValidationFilter'ýmý kullanmak için Api'nin default davranýþýný Filter baskýlanmasýný etkinleþtirdim.
+
+builder.Services.Configure<ApiBehaviorOptions>(opt =>
+{
+    opt.SuppressModelStateInvalidFilter = true;
+})
+
+builder.Services.AddFluentValidation(x => x.RegisterValidatorsFromAssemblyContaining<ProductDtoValidator>());
+
+
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
