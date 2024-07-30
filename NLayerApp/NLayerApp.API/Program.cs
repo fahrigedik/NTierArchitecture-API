@@ -26,7 +26,7 @@ builder.Services.AddControllers(options => { options.Filters.Add(new ValidateFil
 builder.Services.Configure<ApiBehaviorOptions>(opt =>
 {
     opt.SuppressModelStateInvalidFilter = true;
-})
+});
 
 builder.Services.AddFluentValidation(x => x.RegisterValidatorsFromAssemblyContaining<ProductDtoValidator>());
 
