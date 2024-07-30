@@ -26,10 +26,12 @@ builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 //repository
 builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
+builder.Services.AddScoped<ICategoryRepository,CategoryRepository>();
 
 //services
 builder.Services.AddScoped(typeof(IService<>), typeof(Service<>));
 builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddScoped<ICategoryService, CategoryService>();
 
 //automapper
 builder.Services.AddAutoMapper(typeof(MapProfile));
