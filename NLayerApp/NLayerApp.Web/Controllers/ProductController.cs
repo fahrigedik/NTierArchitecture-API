@@ -61,7 +61,7 @@ namespace NLayerApp.Web.Controllers
         }
 
 
-
+        [ServiceFilter(typeof(NotFoundFilter<Product>))]
         [HttpGet]
         public async Task<IActionResult> Update(int id)
         {
@@ -79,7 +79,7 @@ namespace NLayerApp.Web.Controllers
         }
 
 
-        [ServiceFilter(typeof(NotFoundFilter<Product>))]
+        
         [HttpPost]
         public async Task<IActionResult> Update(ProductDto productDto)
         {
