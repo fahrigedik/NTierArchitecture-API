@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using NLayerApp.Core.DTOs;
 using NLayerApp.Core.Entities;
 using NLayerApp.Core.Services;
+using NLayerApp.Web.Filter;
 
 namespace NLayerApp.Web.Controllers
 {
@@ -57,6 +58,56 @@ namespace NLayerApp.Web.Controllers
             }
 
             return RedirectToAction("Index");
+        }
+
+
+
+        [HttpGet]
+        public async Task<IActionResult> Update(int id)
+        {
+            var product = await _productService.GetByIdAsync(id);
+
+            var categories = await _categoryService.GetAllAsync();
+            categories = categories.ToList();
+            var categoriesDto = _mapper.Map<List<CategoryDto>>(categories);
+
+
+            ViewBag.categories = new SelectList(categoriesDto, "Id", "categoryName",product.categoryId);
+
+
+            return View(_mapper.Map<ProductDto>(product));
+        }
+
+
+        [ServiceFilter(typeof(NotFoundFilter<Product>))]
+        [HttpPost]
+        public async Task<IActionResult> Update(ProductDto productDto)
+        {
+
+            if (ModelState.IsValid)
+            {
+                _productService.Uptade(_mapper.Map<Product>(productDto));
+                return RedirectToAction("Index");
+            }
+
+            var categories = await _categoryService.GetAllAsync();
+            categories = categories.ToList();
+            var categoriesDto = _mapper.Map<List<CategoryDto>>(categories);
+
+
+            ViewBag.categories = new SelectList(categoriesDto, "Id", "categoryName", productDto.categoryId);
+
+            return View(productDto.Id);
+
+
+        }
+
+        public async Task<IActionResult> Delete(int id)
+        {
+            var product = await _productService.GetByIdAsync(id);
+            _productService.Delete(product);
+            return RedirectToAction("Index");
+              
         }
     }
 }
