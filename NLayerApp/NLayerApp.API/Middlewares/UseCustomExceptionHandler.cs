@@ -22,6 +22,7 @@ namespace NLayerApp.API.Middleware
                     var statusCode = exceptionFeature.Error switch
                     {
                         ClientSideException => 400,
+                        NotFoundExcepiton => 404,
                         _ => 500
                     };
                     context.Response.StatusCode = statusCode;

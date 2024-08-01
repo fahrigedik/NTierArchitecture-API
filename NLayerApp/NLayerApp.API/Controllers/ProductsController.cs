@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using NLayerApp.API.Filters;
 using NLayerApp.Core.DTOs;
 using NLayerApp.Core.Entities;
 using NLayerApp.Core.Services;
@@ -47,10 +48,18 @@ namespace NLayerApp.API.Controllers
         }
 
 
+        [ServiceFilter(typeof(NotFoundFilter<Product>))]
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
             var product = await _genericService.GetByIdAsync(id);
+
+            //Controller'da sorgu yazmak business kodunu yazmak. doğru değildir bunu servis katmanında yapmak gerekli. Controller Clean kalmalı
+           /* if (product==null)
+            {
+                return CreateActionResult(CustomResponseDto<ProductDto>.Fail(400, "Bu id'ye sahip ürün bulunamadı"));
+            }*/
+
             var productsDto = _mapper.Map<ProductDto>(product);
 
             //return Ok(CustomResponseDto<List<ProductDto>>.Success(200, productsDtos));

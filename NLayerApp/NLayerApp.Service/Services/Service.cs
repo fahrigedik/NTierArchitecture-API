@@ -1,6 +1,7 @@
 ﻿using NLayerApp.Core.Repositories;
 using NLayerApp.Core.Services;
 using NLayerApp.Core.UnitOfWorks;
+using NLayerApp.Service.Exceptions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -54,6 +55,13 @@ namespace NLayerApp.Service.Services
 
         public async Task<T> GetByIdAsync(int id)
         {
+            var hasEntity = await _repository.GetByIdAsync(id);
+
+            if (hasEntity==null)
+            {
+                throw new ClientSideException($"bu id'ye sahip {typeof(T).Name} bulunamadı. ");
+            }
+
             return await _repository.GetByIdAsync(id);
         }
 
