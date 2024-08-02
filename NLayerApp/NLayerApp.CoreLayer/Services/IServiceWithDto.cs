@@ -14,13 +14,13 @@ namespace NLayerApp.Core.Services
 
         Task<CustomResponseDto<Dto>> GetByIdAsync(int id);
 
-        Task<CustomResponseDto<IEnumerable<Dto>> GetAllAsync();
+        Task<CustomResponseDto<IEnumerable<Dto>>> GetAllAsync();
 
-        Task<CustomResponseDto<IEnumerable<Dto>>  Where(Expression<Func<TEntity, bool>> expression);
+        Task<CustomResponseDto<IEnumerable<Dto>>>  Where(Expression<Func<TEntity, bool>> expression);
             
         Task<CustomResponseDto<bool>> AnyAsync(Expression<Func<TEntity, bool>> expression);
 
-        Task AddRangeAsync(IEnumerable<Dto> dtos);
+        Task<CustomResponseDto<IEnumerable<Dto>>> AddRangeAsync(IEnumerable<Dto> dtos);
 
         Task<CustomResponseDto<Dto>> AddAsync(Dto dto);
 
