@@ -12,22 +12,22 @@ namespace NLayerApp.Core.Services
     public interface IServiceWithDto<TEntity,Dto> where TEntity : BaseEntity where Dto : class
     {
 
-        Task<CustomResponseDto<Dto>> GetByIdAsync(int id);
+        public Task<CustomResponseDto<Dto>> GetByIdAsync(int id);
 
-        Task<CustomResponseDto<IEnumerable<Dto>>> GetAllAsync();
+        public Task<CustomResponseDto<IEnumerable<Dto>>> GetAllAsync();
 
-        Task<CustomResponseDto<IEnumerable<Dto>>>  Where(Expression<Func<TEntity, bool>> expression);
+        public Task<CustomResponseDto<IEnumerable<Dto>>>  Where(Expression<Func<TEntity, bool>> expression);
             
-        Task<CustomResponseDto<bool>> AnyAsync(Expression<Func<TEntity, bool>> expression);
+        public Task<CustomResponseDto<bool>> AnyAsync(Expression<Func<TEntity, bool>> expression);
 
-        Task<CustomResponseDto<IEnumerable<Dto>>> AddRangeAsync(IEnumerable<Dto> dtos);
+        public Task<CustomResponseDto<IEnumerable<Dto>>> AddRangeAsync(IEnumerable<Dto> dtos);
 
-        Task<CustomResponseDto<Dto>> AddAsync(Dto dto);
+        public Task<CustomResponseDto<Dto>> AddAsync(Dto dto);
 
-        CustomResponseDto<NoContentDto> Uptade(Dto entity);
+        public CustomResponseDto<NoContentDto> Uptade(Dto entity);
 
-        CustomResponseDto<NoContentDto> Delete(int id);
-
-        CustomResponseDto<NoContentDto> RemoveRange(IEnumerable<int> ids);
+        public  CustomResponseDto<NoContentDto> Delete(int id);
+         
+        public CustomResponseDto<NoContentDto> RemoveRange(IEnumerable<int> ids);
     }
 }

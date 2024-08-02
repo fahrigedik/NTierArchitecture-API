@@ -28,8 +28,11 @@ namespace NLayerApp.API.Module
              .AsImplementedInterfaces()
              .InstancePerLifetimeScope();
 
+           
 
             builder.RegisterType<UnitOfWork>().As<IUnitOfWork>().AsImplementedInterfaces().InstancePerLifetimeScope();
+
+            builder.RegisterType<ProductServiceWithDto>().As<IProductServiceWithDto>().AsImplementedInterfaces().InstancePerLifetimeScope();
 
 
 
